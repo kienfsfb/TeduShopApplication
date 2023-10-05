@@ -11,9 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeduShopApplication.Data", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeduShopApplication.Data.EF", "..\TeduShopApplication.Data.EF\TeduShopApplication.Data.EF.csproj", "{340DD957-397D-4C41-96B6-159005D6CFC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduShopApplication.Infrastructure", "..\TeduShopApplication.Infrastructure\TeduShopApplication.Infrastructure.csproj", "{32EFB353-A9F8-4588-ADAE-D8EB49C36816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeduShopApplication.Infrastructure", "..\TeduShopApplication.Infrastructure\TeduShopApplication.Infrastructure.csproj", "{32EFB353-A9F8-4588-ADAE-D8EB49C36816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduShopApplication.Ultility", "..\TeduShopApplication.Ultility\TeduShopApplication.Ultility.csproj", "{A21E4DE1-7610-4A4B-82BB-3EF538B553D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeduShopApplication.Ultilities", "..\TeduShopApplication.Ultility\TeduShopApplication.Ultilities.csproj", "{A21E4DE1-7610-4A4B-82BB-3EF538B553D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{DCEE8EB4-1C91-486E-87EA-5ECA131E6B10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{869DC71B-003D-4250-B7D6-7748A834A1CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{CABA0B26-7D89-4D48-94E3-48907A7F702A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{A5DA12DA-1FBA-4786-ABE0-AF5D510D4204}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +56,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F793F99-27DB-4D9C-9D88-6047BB31D9D9} = {DCEE8EB4-1C91-486E-87EA-5ECA131E6B10}
+		{D12558A5-3242-4FDC-A9F0-5FC6CBA711BE} = {869DC71B-003D-4250-B7D6-7748A834A1CC}
+		{3265DDF8-FF30-44BA-B84A-36A3DF16BC2F} = {CABA0B26-7D89-4D48-94E3-48907A7F702A}
+		{340DD957-397D-4C41-96B6-159005D6CFC6} = {CABA0B26-7D89-4D48-94E3-48907A7F702A}
+		{32EFB353-A9F8-4588-ADAE-D8EB49C36816} = {A5DA12DA-1FBA-4786-ABE0-AF5D510D4204}
+		{A21E4DE1-7610-4A4B-82BB-3EF538B553D9} = {A5DA12DA-1FBA-4786-ABE0-AF5D510D4204}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C620895-B506-4E2B-8F17-0B9BB5C306BF}
