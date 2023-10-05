@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TeduShopApplication.Application\TeduShopApplication.Application.csproj" />
+    <ProjectReference Include="..\TeduShopApplication.Data.EF\TeduShopApplication.Data.EF.csproj" />
+    <ProjectReference Include="..\TeduShopApplication.Data\TeduShopApplication.Data.csproj" />
+    <ProjectReference Include="..\TeduShopApplication.Infrastructure\TeduShopApplication.Infrastructure.csproj" />
+    <ProjectReference Include="..\TeduShopApplication.Ultility\TeduShopApplication.Ultilities.csproj" />
+  </ItemGroup>
+
 </Project>
